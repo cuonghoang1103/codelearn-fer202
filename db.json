@@ -1,0 +1,676 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Admin CodeLearn",
+      "email": "admin@codelearn.vn",
+      "password": "admin123",
+      "role": "admin",
+      "active": true,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 2,
+      "fullName": "Nguyen Van An",
+      "email": "an@codelearn.vn",
+      "password": "123456",
+      "role": "student",
+      "active": true,
+      "createdAt": "2026-08-20"
+    },
+    {
+      "id": 3,
+      "fullName": "Tran Thi Binh",
+      "email": "binh@codelearn.vn",
+      "password": "123456",
+      "role": "student",
+      "active": true,
+      "createdAt": "2026-08-25"
+    },
+    {
+      "id": 4,
+      "fullName": "Le Van Cuong",
+      "email": "cuong@codelearn.vn",
+      "password": "123456",
+      "role": "student",
+      "active": false,
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": 5,
+      "fullName": "Pham Minh Duc",
+      "email": "duc@codelearn.vn",
+      "password": "123456",
+      "role": "student",
+      "active": true,
+      "createdAt": "2026-09-28"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Frontend"
+    },
+    {
+      "id": 2,
+      "name": "Backend"
+    },
+    {
+      "id": 3,
+      "name": "Database"
+    },
+    {
+      "id": 4,
+      "name": "Mobile"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "React for Beginners",
+      "categoryId": 1,
+      "level": "Beginner",
+      "price": 0,
+      "instructor": "Hoang Cuong",
+      "thumbnail": "",
+      "published": true,
+      "createdAt": "2026-01-10",
+      "description": "Build your first React apps: JSX, components, props, state and the most used hooks — step by step."
+    },
+    {
+      "id": 2,
+      "title": "Advanced React Patterns",
+      "categoryId": 1,
+      "level": "Advanced",
+      "price": 499000,
+      "instructor": "Hoang Cuong",
+      "thumbnail": "",
+      "published": true,
+      "createdAt": "2026-03-05",
+      "description": "Compound components, render props, custom hooks and performance patterns used in large React codebases."
+    },
+    {
+      "id": 3,
+      "title": "JavaScript Essentials",
+      "categoryId": 1,
+      "level": "Beginner",
+      "price": 199000,
+      "instructor": "Tran Minh",
+      "thumbnail": "",
+      "published": true,
+      "createdAt": "2026-02-01",
+      "description": "The JavaScript you need before React: variables, types, functions, arrays and objects."
+    },
+    {
+      "id": 4,
+      "title": "Node.js & Express REST APIs",
+      "categoryId": 2,
+      "level": "Intermediate",
+      "price": 399000,
+      "instructor": "Le Quang",
+      "thumbnail": "",
+      "published": true,
+      "createdAt": "2026-04-12",
+      "description": "Design and build REST APIs with Express: routing, middleware, validation and JSON responses."
+    },
+    {
+      "id": 5,
+      "title": "Spring Boot Fundamentals",
+      "categoryId": 2,
+      "level": "Intermediate",
+      "price": 449000,
+      "instructor": "Nguyen Hai",
+      "thumbnail": "",
+      "published": true,
+      "createdAt": "2026-05-20",
+      "description": "Create production-ready Java back ends with Spring Boot, Spring Web and Spring Data JPA."
+    },
+    {
+      "id": 6,
+      "title": "SQL Server for Developers",
+      "categoryId": 3,
+      "level": "Beginner",
+      "price": 0,
+      "instructor": "Pham Thu",
+      "thumbnail": "",
+      "published": true,
+      "createdAt": "2026-06-01",
+      "description": "Write correct SELECT queries, filter, sort and join tables in Microsoft SQL Server."
+    },
+    {
+      "id": 7,
+      "title": "PostgreSQL Performance Tuning",
+      "categoryId": 3,
+      "level": "Advanced",
+      "price": 549000,
+      "instructor": "Pham Thu",
+      "thumbnail": "",
+      "published": true,
+      "createdAt": "2026-07-15",
+      "description": "Read query plans, design indexes and tune PostgreSQL for real workloads."
+    },
+    {
+      "id": 8,
+      "title": "Flutter Mobile Apps",
+      "categoryId": 4,
+      "level": "Intermediate",
+      "price": 349000,
+      "instructor": "Vo Thanh",
+      "thumbnail": "",
+      "published": true,
+      "createdAt": "2026-08-08",
+      "description": "Build cross-platform mobile apps with Flutter widgets, navigation and state management."
+    },
+    {
+      "id": 9,
+      "title": "TypeScript in Practice",
+      "categoryId": 1,
+      "level": "Intermediate",
+      "price": 299000,
+      "instructor": "Tran Minh",
+      "thumbnail": "",
+      "published": true,
+      "createdAt": "2026-09-01",
+      "description": "Add types to real projects: interfaces, generics, narrowing and typing React components."
+    },
+    {
+      "id": 10,
+      "title": "MongoDB Basics",
+      "categoryId": 3,
+      "level": "Beginner",
+      "price": 149000,
+      "instructor": "Le Quang",
+      "thumbnail": "",
+      "published": false,
+      "createdAt": "2026-10-01",
+      "description": "Documents, collections and queries in MongoDB — draft course, not published yet."
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "title": "Getting Started with React",
+      "order": 1
+    },
+    {
+      "id": 2,
+      "courseId": 1,
+      "title": "Components, Props & State",
+      "order": 2
+    },
+    {
+      "id": 3,
+      "courseId": 1,
+      "title": "Hooks in Practice",
+      "order": 3
+    },
+    {
+      "id": 4,
+      "courseId": 3,
+      "title": "Variables & Types",
+      "order": 1
+    },
+    {
+      "id": 5,
+      "courseId": 3,
+      "title": "Functions & Arrays",
+      "order": 2
+    },
+    {
+      "id": 6,
+      "courseId": 4,
+      "title": "Express Basics",
+      "order": 1
+    },
+    {
+      "id": 7,
+      "courseId": 4,
+      "title": "REST & JSON",
+      "order": 2
+    },
+    {
+      "id": 8,
+      "courseId": 6,
+      "title": "SELECT Fundamentals",
+      "order": 1
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "chapterId": 1,
+      "courseId": 1,
+      "order": 1,
+      "title": "What is React?",
+      "duration": 8,
+      "videoUrl": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+      "content": "React is a JavaScript library for building user interfaces from small, reusable components.\nIn this lesson you see how a React app is just a tree of components that turn data into UI."
+    },
+    {
+      "id": 2,
+      "chapterId": 1,
+      "courseId": 1,
+      "order": 2,
+      "title": "Create React App & project structure",
+      "duration": 12,
+      "videoUrl": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+      "content": "Create the project with npx create-react-app, then walk through public/index.html, src/index.js and src/App.js.\nRun it with npm start on http://localhost:3000."
+    },
+    {
+      "id": 3,
+      "chapterId": 2,
+      "courseId": 1,
+      "order": 1,
+      "title": "JSX and components",
+      "duration": 15,
+      "videoUrl": "https://www.youtube.com/watch?v=w7ejDZ8SWv8",
+      "content": "JSX looks like HTML but compiles to React.createElement calls.\nA component is a function that returns JSX; its name must start with a capital letter."
+    },
+    {
+      "id": 4,
+      "chapterId": 2,
+      "courseId": 1,
+      "order": 2,
+      "title": "Props vs State",
+      "duration": 14,
+      "videoUrl": "https://www.youtube.com/watch?v=IYvD9oBCuJI",
+      "content": "Props are read-only data passed from a parent; state is data a component owns and changes with its setter.\nChanging state re-renders the component."
+    },
+    {
+      "id": 5,
+      "chapterId": 3,
+      "courseId": 1,
+      "order": 1,
+      "title": "useState and useEffect",
+      "duration": 13,
+      "videoUrl": "https://www.youtube.com/watch?v=O6P86uwfdR0",
+      "content": "useState stores a value between renders; useEffect runs side effects such as fetching data after the component renders.\nAlways list the values the effect uses in its dependency array."
+    },
+    {
+      "id": 6,
+      "chapterId": 4,
+      "courseId": 3,
+      "order": 1,
+      "title": "let, const and var",
+      "duration": 10,
+      "videoUrl": "https://www.youtube.com/watch?v=hdI2bqOjy3c",
+      "content": "Prefer const, use let when a variable must be reassigned, and avoid var (function scope, hoisting surprises)."
+    },
+    {
+      "id": 7,
+      "chapterId": 4,
+      "courseId": 3,
+      "order": 2,
+      "title": "Primitive types",
+      "duration": 11,
+      "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+      "content": "string, number, boolean, null, undefined, bigint and symbol — and why typeof null is \"object\"."
+    },
+    {
+      "id": 8,
+      "chapterId": 5,
+      "courseId": 3,
+      "order": 1,
+      "title": "Arrow functions and array methods",
+      "duration": 16,
+      "videoUrl": "https://www.youtube.com/watch?v=R8rmfD9Y5-c",
+      "content": "Write short callbacks with arrow functions and transform data with map, filter and reduce without mutating the original array."
+    },
+    {
+      "id": 9,
+      "chapterId": 6,
+      "courseId": 4,
+      "order": 1,
+      "title": "Your first Express server",
+      "duration": 14,
+      "videoUrl": "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+      "content": "Install express, create an app and call app.listen(3000). Add a GET route that returns JSON."
+    },
+    {
+      "id": 10,
+      "chapterId": 6,
+      "courseId": 4,
+      "order": 2,
+      "title": "Routing & middleware",
+      "duration": 18,
+      "videoUrl": "https://www.youtube.com/watch?v=L72fhGm1tfE",
+      "content": "Split routes with express.Router and write middleware with (req, res, next) for logging and validation."
+    },
+    {
+      "id": 11,
+      "chapterId": 7,
+      "courseId": 4,
+      "order": 1,
+      "title": "Building a REST API",
+      "duration": 20,
+      "videoUrl": "https://www.youtube.com/watch?v=pKd0Rpw7O48",
+      "content": "Map CRUD to HTTP: GET /items, POST /items, PUT /items/:id, DELETE /items/:id — with the right status codes."
+    },
+    {
+      "id": 12,
+      "chapterId": 8,
+      "courseId": 6,
+      "order": 1,
+      "title": "SELECT, WHERE, ORDER BY",
+      "duration": 15,
+      "videoUrl": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+      "content": "Choose columns with SELECT, filter rows with WHERE and sort the result with ORDER BY."
+    },
+    {
+      "id": 13,
+      "chapterId": 8,
+      "courseId": 6,
+      "order": 2,
+      "title": "JOIN in practice",
+      "duration": 17,
+      "videoUrl": "https://www.youtube.com/watch?v=9yeOJ0ZMUYw",
+      "content": "Combine rows of related tables with INNER JOIN and LEFT JOIN on their keys."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "chapterId": 1,
+      "courseId": 1,
+      "content": "What does JSX compile to?",
+      "options": [
+        "Plain HTML strings",
+        "React.createElement() calls",
+        "Web Components",
+        "CSS-in-JS objects"
+      ],
+      "answerIndex": 1,
+      "explanation": "The build tool turns every JSX tag into a React.createElement (or jsx()) call that returns a plain object describing the UI."
+    },
+    {
+      "id": 2,
+      "chapterId": 1,
+      "courseId": 1,
+      "content": "Which command creates a new React app with Create React App?",
+      "options": [
+        "npm create-react-app my-app",
+        "npx create-react-app my-app",
+        "npm init react my-app",
+        "npx react-new my-app"
+      ],
+      "answerIndex": 1,
+      "explanation": "npx downloads and runs create-react-app once, without installing it globally."
+    },
+    {
+      "id": 3,
+      "chapterId": 1,
+      "courseId": 1,
+      "content": "Which file renders <App /> into #root in a CRA project?",
+      "options": [
+        "src/index.js",
+        "public/manifest.json",
+        "src/App.css",
+        "package.json"
+      ],
+      "answerIndex": 0,
+      "explanation": "src/index.js calls ReactDOM.createRoot(document.getElementById(\"root\")).render(<App />)."
+    },
+    {
+      "id": 4,
+      "chapterId": 2,
+      "courseId": 1,
+      "content": "Props are…",
+      "options": [
+        "mutable data owned by the child",
+        "read-only data passed from parent to child",
+        "global variables",
+        "the same thing as state"
+      ],
+      "answerIndex": 1,
+      "explanation": "A component must never change its props; the parent owns that data."
+    },
+    {
+      "id": 5,
+      "chapterId": 2,
+      "courseId": 1,
+      "content": "Why must you never mutate state directly (state.items.push(x))?",
+      "options": [
+        "It is slower",
+        "React compares references, so the same array means no re-render",
+        "It throws an error",
+        "It deletes the state"
+      ],
+      "answerIndex": 1,
+      "explanation": "Create a new array/object (spread, map, filter) so React sees a new reference and re-renders."
+    },
+    {
+      "id": 6,
+      "chapterId": 2,
+      "courseId": 1,
+      "content": "Where should state shared by two sibling components live?",
+      "options": [
+        "In each sibling separately",
+        "In their closest common parent (lift state up)",
+        "In localStorage",
+        "In a CSS file"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lifting state up gives one source of truth; the siblings receive it via props."
+    },
+    {
+      "id": 7,
+      "chapterId": 3,
+      "courseId": 1,
+      "content": "When does useEffect(fn, []) run?",
+      "options": [
+        "Before every render",
+        "After the first render only",
+        "On every state change",
+        "Never"
+      ],
+      "answerIndex": 1,
+      "explanation": "An empty dependency array means \"after mount\" (twice in development StrictMode)."
+    },
+    {
+      "id": 8,
+      "chapterId": 3,
+      "courseId": 1,
+      "content": "What is wrong with calling a hook inside an if statement?",
+      "options": [
+        "Nothing",
+        "Hooks must be called in the same order on every render",
+        "Hooks only work in class components",
+        "It makes the app slower"
+      ],
+      "answerIndex": 1,
+      "explanation": "React matches hook state by call order, so hooks must sit at the top level of the component."
+    },
+    {
+      "id": 9,
+      "chapterId": 4,
+      "courseId": 3,
+      "content": "Which keyword declares a variable that cannot be reassigned?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "static"
+      ],
+      "answerIndex": 2,
+      "explanation": "const prevents reassignment (the object it points to can still change)."
+    },
+    {
+      "id": 10,
+      "chapterId": 4,
+      "courseId": 3,
+      "content": "What is typeof null in JavaScript?",
+      "options": [
+        "\"null\"",
+        "\"object\"",
+        "\"undefined\"",
+        "\"number\""
+      ],
+      "answerIndex": 1,
+      "explanation": "A historic bug kept for compatibility: typeof null === \"object\"."
+    },
+    {
+      "id": 11,
+      "chapterId": 4,
+      "courseId": 3,
+      "content": "Which value is NOT falsy?",
+      "options": [
+        "0",
+        "\"\" (empty string)",
+        "\"0\"",
+        "NaN"
+      ],
+      "answerIndex": 2,
+      "explanation": "Any non-empty string, including \"0\", is truthy."
+    },
+    {
+      "id": 12,
+      "chapterId": 6,
+      "courseId": 4,
+      "content": "Which method starts an Express server on a port?",
+      "options": [
+        "app.run(3000)",
+        "app.listen(3000)",
+        "app.start(3000)",
+        "express.serve(3000)"
+      ],
+      "answerIndex": 1,
+      "explanation": "app.listen(port, callback) opens the HTTP server."
+    },
+    {
+      "id": 13,
+      "chapterId": 6,
+      "courseId": 4,
+      "content": "What does an Express middleware function receive?",
+      "options": [
+        "(req, res, next)",
+        "(state, action)",
+        "(props)",
+        "(event)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Middleware gets the request, the response and next() to pass control on."
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "userId": 2,
+      "courseId": 1,
+      "enrolledAt": "2026-09-01",
+      "completedLessons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "courseId": 3,
+      "enrolledAt": "2026-09-10",
+      "completedLessons": []
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "courseId": 1,
+      "enrolledAt": "2026-09-12",
+      "completedLessons": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "courseId": 4,
+      "enrolledAt": "2026-09-15",
+      "completedLessons": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "courseId": 1,
+      "enrolledAt": "2026-10-01",
+      "completedLessons": []
+    },
+    {
+      "id": 6,
+      "userId": 5,
+      "courseId": 6,
+      "enrolledAt": "2026-10-03",
+      "completedLessons": [
+        12
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "userId": 2,
+      "courseId": 1,
+      "chapterId": 1,
+      "score": 2,
+      "total": 3,
+      "percent": 67,
+      "passed": false,
+      "answers": [
+        1,
+        0,
+        0
+      ],
+      "submittedAt": "2026-09-05T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "courseId": 1,
+      "chapterId": 1,
+      "score": 3,
+      "total": 3,
+      "percent": 100,
+      "passed": true,
+      "answers": [
+        1,
+        1,
+        0
+      ],
+      "submittedAt": "2026-09-06T10:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "courseId": 4,
+      "chapterId": 6,
+      "score": 2,
+      "total": 2,
+      "percent": 100,
+      "passed": true,
+      "answers": [
+        1,
+        0
+      ],
+      "submittedAt": "2026-09-20T14:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "courseId": 3,
+      "chapterId": 4,
+      "score": 1,
+      "total": 3,
+      "percent": 33,
+      "passed": false,
+      "answers": [
+        2,
+        0,
+        0
+      ],
+      "submittedAt": "2026-09-12T08:15:00.000Z"
+    }
+  ]
+}
