@@ -1,6 +1,6 @@
 # CodeLearn — mini LMS (FER202 final assignment)
 
-> **Sinh viên:** _(điền Họ tên của bạn)_ — **MSSV:** _(điền mã số sinh viên)_
+> **Sinh viên:** Hoàng Nghĩa Cường — **MSSV:** 176322 — **Lớp:** SE2059
 > **Môn:** FER202 — Front-End Web Development with React
 
 ReactJS (Create React App) · React Router 6 · Redux Toolkit · Axios · React-Bootstrap · json-server 0.17.4
